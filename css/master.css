@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.frame1{
+    width: 98%;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0B9586;
+    padding: 16px 10px;
+}
+/* .frame1 .one {
+    width: 5%;
+} */
+.frame1 .one img{
+    width: 157px;
+    height: 54px;
+    filter: grayscale(90%);
+}
+.frame1 .two ul{
+    list-style-type: none;
+
+}
+.frame1 .two ul li{
+    color: white;
+    display: inline-block;
+    margin: 0 6px;
+}
+.frame1 .three{
+    color: white;
+} 
+.three span{
+    justify-content: flex-end;
+}
+.frame2{
+    background-image: url("../WhatsApp Image 2024-07-10 at 18.10.15_9b051746.jpg");
+    background-size: 100% 100%;
+    padding: 200px 50px;
+    color: white;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+.frame2 h2{
+ font-weight: bold;
+ line-height: 25px;
+ font-size: 30px;
+ margin-bottom: 20px;
+}
+.frame2 .squ{
+    display: flex;
+    margin-top: 15px;
+}
+.frame2 .squ .one{
+    margin-right: 30px;
+    background-color: aqua;
+    width: 150px;
+    border-radius: 20px;
+}
+.frame2 .squ .two{
+    background-color: yellowgreen;
+    width: 200px;
+    border-radius: 20px;
+}
+.frame3{
+    margin-top: 20px;
+    padding: 50px 50px;
+    background-image: url("../WhatsApp Image 2024-07-17 at 02.35.17_a25df070.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+.frame3 h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.frame3 p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.frame3 .num{
+    font-weight: 700;
+    font-size: 15px;
+}
+.frame3 .num span{
+    color: #0B9586;
+}
+.frame4{
+    margin-top: 20px;
+    background-image: url("../WhatsApp Image 2024-07-17 at 03.18.29_e3b53d21.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 150px 50px;
+    color: white;
+}
+.frame4 h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.frame4 .but{
+    margin-top: 20px;
+    width: 140px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    align-items: center;
+}
